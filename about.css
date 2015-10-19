@@ -1,0 +1,95 @@
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none; 
+}
+
+.work{
+    background-color: white;
+    width: 400px; 
+    height: 20px; 
+    margin: 0 auto; 
+    margin-top: 0px; 
+    padding-right: 0px;
+    font-size: 16px; 
+    text-align: center; 
+    font-family: futura; 
+    position: relative; 
+}
+.work li{
+    display: inline; 
+    padding: 15px; 40px; 
+}
+.work li a{
+    text-decoration: none; 
+    color: black; 
+}
+
+
+h1{
+    font-family: futura;
+    font-weight: 100; 
+    font-size: 17px; 
+    text-align: center;  
+    width: 300px; 
+    height: 50px; 
+    margin-right: auto; 
+    margin-left: auto;
+    color: black; 
+    
+}
+.header{
+    width: 800px; 
+    height: 200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 50px; 
+}
+.header img{
+    width: 800px; 
+    height: 200px; 
+    }
+
+.work li.active-link a{
+    border-bottom: none; text-decoration: line-through;
+}
+
+p{
+    width: 300px; 
+    height: 50px;
+    font-family: futura; 
+    color: black; 
+    font-size: 14px; 
+}
+img{
+    width: 250px; 
+    height: 250px; 
+}
+.profil{
+    width: 260px; 
+    height: 300px; 
+    float: center; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-left: 350px;
+    margin-top: 25px; 
+}
+h2{
+    font-family: futura; 
+    font-size: 17px; 
+    font-weight: 500; 
+    text-transform: uppercase;
+    text-align: right; 
+}
+.text{
+    width:375px;
+    height: 500px; 
+    text-align: left; 
+    float: right; 
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 350px; 
+
+
+}
