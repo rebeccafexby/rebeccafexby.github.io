@@ -1,7 +1,8 @@
 .row2{ 
     font-size: 15px;
     color: #ADAFAA; 
-    width: 1150px; 
+    max-width: 1150px;
+    width: 100%;
     height: 300px;
     background-color: white;
     margin-left: auto; 
@@ -51,15 +52,16 @@ a:hover, a:visited, a:link, a:active
 }
 
 .header{
-    width: 800px; 
-    height: 200px; 
+    max-width: 800px; 
+    width: 100%; 
+    height: auto; 
     margin-left: auto; 
     margin-right: auto; 
     padding-top: 50px; 
 }
 .header img{
-    width: 800px; 
-    height: 200px; 
+    width: 100%;
+    
 }
 
 figure {
@@ -110,7 +112,7 @@ h1{
     
     
 }
-@media (max-width: 768px) {
+@media (max-width: 375px) {
  .left, .right {
    width: 100%;
  }
@@ -160,8 +162,8 @@ figure img{
     padding-left: 10px; 
 }
 .icons{
-    width: 380px; 
-    height: 100px; 
+    max-width: 450px; 
+    width: 100%; 
     margin-left: auto;
     margin-right: auto;
     margin-top: -30px; 
@@ -170,8 +172,8 @@ figure img{
 .headline1{
     font-family: futura; 
     font-size: 28px; 
+    width: 100%; 
     font-weight: 300;
-    width: 400px; 
     margin-top: 100px; 
-    margin-left: 550px; 
+    text-align: center;
 }
