@@ -18,14 +18,16 @@ a:hover, a:visited, a:link, a:active
 .work{
     background-color: white;
     width: 400px; 
-    height: 20px; 
+    height: 40px; 
     margin: 0 auto; 
     margin-top: 0px; 
     padding-right: 0px;
-    font-size: 16px; 
+    font-size: 26px; 
     text-align: center; 
-    font-family: futura; 
+    font-family: norwester; 
     position: relative; 
+    text-transform: uppercase;
+    font-weight: 500; 
 }
 .work li{
     display: inline; 
@@ -66,7 +68,7 @@ a:hover, a:visited, a:link, a:active
 
 figure {
     width: 300px;
-    height: 240px; 
+    height: 270px; 
     position: relative; 
 
 }
@@ -75,12 +77,14 @@ figure figcaption {
     position: absolute; 
     bottom: 0; 
     font-family: futura; 
-    font-size: 18px; 
+    font-size: 20px; 
     color: black; 
     width:300px;  
+    height: 60px; 
     text-transform: uppercase; 
-    font-weight:100;
+    font-weight:400;
     text-align: center;
+    margin-top: 40px; 
 
 }
 figure {float: left;}
@@ -95,14 +99,7 @@ h1{
     font-weight: 100; 
     font-size: 30px; 
 }
-.headline-femme{
-    width: 300px; 
-    height: 50px; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-top: 30px; 
 
-}
 .brodtext{
     width: 600px; 
     height: 110px; 
@@ -171,9 +168,24 @@ figure img{
     }
 .headline1{
     font-family: futura; 
-    font-size: 28px; 
+    font-size: 32px; 
     width: 100%; 
     font-weight: 300;
     margin-top: 100px; 
     text-align: center;
+    text-transform: uppercase;
+}
+.pf{
+    width: 800px; 
+    height: 390px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.flora p{
+    width: 210px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 40px; 
+    font-family: futura; 
+    font-weight: 500; 
 }
