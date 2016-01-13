@@ -17,14 +17,14 @@ a:hover, a:visited, a:link, a:active
 
 .work{
     background-color: white;
-    width: 400px; 
+    width: 500px; 
     height: 40px; 
     margin: 0 auto; 
     margin-top: 0px; 
     padding-right: 0px;
-    font-size: 26px; 
+    font-size: 22px; 
     text-align: center; 
-    font-family: norwester; 
+    font-family: futura; 
     position: relative; 
     text-transform: uppercase;
     font-weight: 500; 
@@ -49,9 +49,10 @@ a:hover, a:visited, a:link, a:active
     
     
 }
-.hover11 figure:hover img {
+/*.hover11 figure:hover img {
 	opacity: .5;
 }
+*/
 
 .header{
     max-width: 800px; 
