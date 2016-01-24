@@ -107,6 +107,7 @@ h1{
     margin-left: auto; 
     margin-right: auto; 
     font-family: futura; 
+    margin-top: 50px; 
     
     
 }
@@ -182,6 +183,10 @@ figure img{
     margin-left: auto;
     margin-right: auto;
 }
+.pf img{
+    max-height: 390px;
+    width: auto;
+}
 .flora p{
     width: 210px; 
     margin-left: auto;
@@ -207,4 +212,27 @@ figure img{
     background-color: white;
     margin-left: auto;
     margin-right: auto; 
+}
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+border-radius: 100%;
+background-color: lightgrey;
+    margin-top: 20px; 
+    
+
+
+    
+
+    
+}
+.owl-dot.active{
+background-color: darkgray;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dots{
+text-align: center;
 }
