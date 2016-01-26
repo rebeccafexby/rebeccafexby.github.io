@@ -17,7 +17,7 @@ a:hover, a:visited, a:link, a:active
 
 .work{
     background-color: white;
-    width: 500px; 
+    max-width: 500px; 
     height: 40px; 
     margin: 0 auto; 
     margin-top: 0px; 
@@ -29,9 +29,12 @@ a:hover, a:visited, a:link, a:active
     text-transform: uppercase;
     font-weight: 500; 
 }
+.work ul{
+    padding-left: 0px;
+}
 .work li{
     display: inline; 
-    padding: 15px; 40px; 
+    padding: 15px;
 }
 .work li a{
     text-decoration: none; 
@@ -108,6 +111,7 @@ h1{
     margin-right: auto; 
     font-family: futura; 
     margin-top: 50px; 
+    margin-bottom: 50px; 
     
     
 }
@@ -235,4 +239,15 @@ background-color: darkgray;
 }
 .owl-dots{
 text-align: center;
+}
+
+.greta-text{
+margin-bottom: 50px; 
+    width: 600px; 
+    height: 110px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: futura; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
 }
