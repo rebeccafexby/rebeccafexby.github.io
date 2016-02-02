@@ -89,24 +89,23 @@ p{
     max-width: 500px;
     width: 100%; 
     height: auto; 
-    float: center; 
+    float: left; 
     display: inline-block; 
     vertical-align: top;  
     
 }
-h2{
+h1{
     font-family: futura; 
     font-size: 17px; 
-    font-weight: 500; 
+    font-weight: 600; 
     text-transform: uppercase;
     text-align: right; 
     padding-top: 50px; 
 }
 .text{
-    width: 100%;
-    max-width: 100%; 
-    text-align: left; 
-    float: right; 
+    width: 80%;
+    max-width: 300px; 
+    float: left;
     display: inline-block; 
     vertical-align: top;  
 }
@@ -116,6 +115,8 @@ h2{
     margin: 0 auto;
 
 }
+
+
 @media screen and (max-width: 500px) {
  .left, .right{ 
    width: 100%;

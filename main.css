@@ -115,13 +115,23 @@ figure:hover h2{
 
 }
 .brodtext2{
-    width: 800px; 
-    height: 60px; 
+    width: 90%;
+    max-width: 800px;
+    height: auto; 
     margin-left: auto; 
     margin-right: auto; 
     font-family: futura; 
-    margin-top: 50px; 
-    margin-bottom: 50px;     
+    margin-top: 10px; 
+    margin-bottom: 40px;     
+}
+.elletext{
+    width: 90%;
+    max-width: 800px;
+    height: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: futura; 
+    margin-top: 30px;   
 }
 
 
@@ -159,8 +169,8 @@ figure img{
 
 }
 .icons img {
-    width: 80px; 
-    height: 80px;
+    width: 85px; 
+    height: 85px;
     padding-left: 10px; 
 }
 .icons{
@@ -257,6 +267,26 @@ margin-bottom: 50px;
 .video{
     text-align: center;
 }
+.pfs{
+    width: 800px; 
+    max-width: 100%;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+
+}
+.pfs img{
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+}
+.content{
+    margin-bottom: 50px;
+    width:100%;
+    float: left;
+}
+
 
 
 @media screen and (max-width: 500px) {
