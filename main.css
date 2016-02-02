@@ -1,20 +1,21 @@
+.active{
+    text-decoration: underline;
+}
 .row2{ 
     font-size: 15px;
     color: #ADAFAA; 
     max-width: 1150px;
     width: 100%;
-    height: 300px;
+    height: 270px;
     background-color: white;
     margin-left: auto; 
     margin-right: auto; 
     margin-top:80px;  
 }
-
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none; 
 }
-
 .work{
     background-color: white;
     max-width: 500px; 
@@ -22,9 +23,9 @@ a:hover, a:visited, a:link, a:active
     margin: 0 auto; 
     margin-top: 0px; 
     padding-right: 0px;
-    font-size: 22px; 
+    font-size: 30px; 
     text-align: center; 
-    font-family: futura; 
+    font-family: anders; 
     position: relative; 
     text-transform: uppercase;
     font-weight: 500; 
@@ -41,48 +42,42 @@ a:hover, a:visited, a:link, a:active
     color: black;  
 }
 .hover11 figure img {
-	opacity: 1;
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
-    width: 300px; 
+	opacity: 9;
+	-webkit-transition: .0,5s ease-in-out;
+	transition: .0,5s ease-in-out;
+    width: 380px; 
     height: 220px; 
     height: auto; 
     float: left;  
     position: relative; 
-    
-    
 }
-/*.hover11 figure:hover img {
-	opacity: .5;
+.hover11 figure:hover img {
+	opacity: .6;
 }
-*/
-
 .header{
     max-width: 800px; 
     width: 100%; 
     height: auto; 
     margin-left: auto; 
     margin-right: auto; 
-    padding-top: 50px; 
+    padding-top: 20px;
 }
 .header img{
     width: 100%;
     
 }
-
-figure {
+.figure {
     width: 300px;
-    height: 270px; 
+    height: 260px; 
     position: relative; 
-
+    float: left;
 }
-
 figure figcaption {
     position: absolute; 
     bottom: 0; 
     font-family: futura; 
     font-size: 20px; 
-    color: black; 
+    color: white; 
     width:300px;  
     height: 60px; 
     text-transform: uppercase; 
@@ -91,77 +86,81 @@ figure figcaption {
     margin-top: 40px; 
 
 }
-figure {float: left;}
 
-figure1 {
-    width: 250px;
-    height: 375px;
-    position: relative;
+h2{
+    font-family: roboto; 
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    top: 80px; 
+    left: 25px; 
+    font-size: 45px; 
+    opacity: 0;
+    z-index: 1000;
+    width: 100%;
+    text-align: center;
 }
-h1{
-    font-family: futura; 
-    font-weight: 100; 
-    font-size: 30px; 
+figure:hover h2{
+    opacity: 1;
 }
-
 .brodtext{
-    width: 600px; 
-    height: 110px; 
+    width: 800px; 
+    height: 230px; 
     margin-left: auto; 
     margin-right: auto; 
     font-family: futura; 
     margin-top: 50px; 
     margin-bottom: 50px; 
-    
-    
+
 }
-@media (max-width: 375px) {
- .left, .right {
-   width: 100%;
- }
+.brodtext2{
+    width: 800px; 
+    height: 60px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-family: futura; 
+    margin-top: 50px; 
+    margin-bottom: 50px;     
 }
+
 
 .row3{ 
     font-size: 15px;
     color: #ADAFAA; 
-    width: 1050px; 
-    height: 470px;
+    width: 100%;
+    max-width: 1050px;
+    max-height: 100%;
     background-color: white;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center;
+    clear: both;
 }
-.row4{ 
-    font-size: 15px;
-    color: #ADAFAA; 
-    width: 1050px; 
-    height: 470px;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.row6{ 
-    font-size: 15px;
-    color: #ADAFAA; 
-    width: 1050px; 
-    height: 470px;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.figure2 {
-    width: 250px;
-    height: 375px; 
-    position: relative; 
 
+.row3:last-child{
+    margin-bottom: 100px;
+    height: 400px; 
+}
+
+.figure2{
+    width: 33%;
+    float: left;
+    overflow:hidden;
+}
+.figure2 img{
+    width: 100%; 
+    
 }
 figure img{
-    width: 300px; 
-    height: 201px; 
+    width: 33%;
+    height: auto;
 
 }
 .icons img {
-    width: 50px; 
-    height: 50px;
+    width: 80px; 
+    height: 80px;
     padding-left: 10px; 
 }
 .icons{
@@ -183,13 +182,16 @@ figure img{
 }
 .pf{
     width: 800px; 
-    height: 390px; 
+    max-width: 100%;
+    height: auto; 
     margin-left: auto;
     margin-right: auto;
+
 }
 .pf img{
-    max-height: 390px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
 }
 .flora p{
     width: 210px; 
@@ -223,19 +225,10 @@ figure img{
     display: inline-block;
 border-radius: 100%;
 background-color: lightgrey;
-    margin-top: 20px; 
-    
-
-
-    
-
-    
+    margin-top: 20px;     
 }
 .owl-dot.active{
 background-color: darkgray;
-}
-.owl-nav{
-    display: none;
 }
 .owl-dots{
 text-align: center;
@@ -249,5 +242,32 @@ margin-bottom: 50px;
     margin-right: auto; 
     font-family: futura; 
     margin-top: 50px; 
-    margin-bottom: 50px;
+    margin-bottom: 50px
+}
+.bredd{
+    height: 300px; 
+    background-color: white;
+
+}
+.rad{
+    width: 100px;
+    height: 30px; 
+    background-color: white; 
+}
+.video{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+ .left, .right{ 
+   width: 100%;
+ }
+    
+    .figure2{
+    width: 100%;
+    max-height: 500px; 
+        
+    }
+
 }

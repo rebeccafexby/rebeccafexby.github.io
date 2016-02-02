@@ -1,3 +1,17 @@
+.active{
+    text-decoration: underline;
+}
+.row2{ 
+    font-size: 15px;
+    color: #ADAFAA; 
+    max-width: 1150px;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:80px;  
+}
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none; 
@@ -5,17 +19,20 @@ a:hover, a:visited, a:link, a:active
 
 .work{
     background-color: white;
-    width: 400px; 
-    height: 20px; 
+    max-width: 500px; 
+    height: 40px; 
     margin: 0 auto; 
     margin-top: 0px; 
     padding-right: 0px;
-    font-size: 26px; 
+    font-size: 30px; 
     text-align: center; 
-    font-family: norwester; 
+    font-family: anders; 
     position: relative; 
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 500; 
+}
+.work ul{
+    padding-left: 0px;
 }
 .work li{
     display: inline; 
@@ -41,40 +58,41 @@ h1{
 }
 .header{
     max-width: 800px; 
-    width: 100%;
-    height:auto; 
+    width: 100%; 
+    height: auto; 
     margin-left: auto; 
     margin-right: auto; 
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .header img{
     width: 100%;
-    }
+    
+}
 
 .work li.active-link a{
     border-bottom: none; text-decoration: line-through;
 }
 
 p{
-    width: 300px; 
-    height: 50px;
+    width: 500px; 
+    height: 300px;
     font-family: futura; 
     color: black; 
-    font-size: 14px; 
+    font-size: 18px; 
 }
 .profil img{
-    width: 250px; 
-    height: 250px; 
+    width: 300px; 
+    height: 300px; 
+    padding-top: 40px; 
 }
 .profil{
-    max-width: 260px;
+    max-width: 500px;
     width: 100%; 
     height: auto; 
     float: center; 
     display: inline-block; 
-    vertical-align: top; 
-    margin-left: 350px;
-    margin-top: 25px; 
+    vertical-align: top;  
+    
 }
 h2{
     font-family: futura; 
@@ -82,14 +100,31 @@ h2{
     font-weight: 500; 
     text-transform: uppercase;
     text-align: right; 
+    padding-top: 50px; 
 }
 .text{
-    max-width: 450px; 
+    width: 100%;
+    max-width: 100%; 
     text-align: left; 
     float: right; 
     display: inline-block; 
-    vertical-align: top; 
-    margin-right: 350px; 
+    vertical-align: top;  
+}
+.box{
+    width:100%;
+    max-width: 1000px;
+    margin: 0 auto;
 
+}
+@media screen and (max-width: 500px) {
+ .left, .right{ 
+   width: 100%;
+ }
+    
+    .figure2{
+    width: 100%;
+    max-height: 500px; 
+        
+    }
 
 }
