@@ -286,6 +286,17 @@ margin-bottom: 50px;
     width:100%;
     float: left;
 }
+@font-face {
+    font-family: 'andersregular';
+    src: url('anders-webfont.eot');
+    src: url('anders-webfont.eot?#iefix') format('embedded-opentype'),
+         url('anders-webfont.woff2') format('woff2'),
+         url('anders-webfont.woff') format('woff'),
+         url('anders-webfont.ttf') format('truetype'),
+         url('anders-webfont.svg#andersregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
