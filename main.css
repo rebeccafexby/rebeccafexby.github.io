@@ -297,9 +297,6 @@ margin-bottom: 50px;
     font-weight: normal;
     font-style: normal;
 }
-
-
-
 @media screen and (max-width: 500px) {
  .left, .right{ 
    width: 100%;
