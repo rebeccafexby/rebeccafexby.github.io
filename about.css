@@ -78,7 +78,8 @@ p{
     height: 300px;
     font-family: futura; 
     color: black; 
-    font-size: 18px; 
+    font-size: 17px; 
+    word-spacing: 1px; 
 }
 .profil img{
     width: 300px; 
