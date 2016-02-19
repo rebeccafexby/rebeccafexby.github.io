@@ -20,16 +20,16 @@ a:hover, a:visited, a:link, a:active
 .work{
     background-color: white;
     max-width: 500px; 
-    height: 40px; 
+    height: 20px; 
     margin: 0 auto; 
     margin-top: 0px; 
     padding-right: 0px;
-    font-size: 30px; 
+    font-size: 26px; 
     text-align: center; 
-    font-family: anders; 
+    font-family: Moon, roboto; 
     position: relative; 
     text-transform: uppercase;
-    font-weight: 500; 
+    font-weight: 200; 
 }
 .work ul{
     padding-left: 0px;
@@ -335,6 +335,21 @@ h1{
     margin: 0 auto;
 
 }
+.textcontact{
+    width: 100%;
+    max-width: 400px; 
+    height: auto; 
+    margin: 0 auto; 
+    font-family: futura; 
+    color: black; 
+    font-size: 16px;
+    margin-bottom: 50px; 
+    padding-top: 30px; 
+}
+
+
+
+
 @media screen and (max-width: 500px) {
  .left, .right{ 
    width: 100%;
