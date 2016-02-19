@@ -73,50 +73,6 @@ h1{
     border-bottom: none; text-decoration: line-through;
 }
 
-p{
-    width: 500px; 
-    max-width: 100%;
-    height: 300px;
-    font-family: futura; 
-    color: black; 
-    font-size: 17px; 
-    word-spacing: 1px; 
-}
-.profil img{
-    width: 300px; 
-    height: 300px; 
-    padding-top: 40px; 
-}
-.profil{
-    max-width: 500px;
-    width: 100%; 
-    height: auto; 
-    float: left; 
-    display: inline-block; 
-    vertical-align: top;  
-    
-}
-h1{
-    font-family: futura; 
-    font-size: 17px; 
-    font-weight: 600; 
-    text-transform: uppercase;
-    text-align: right; 
-    padding-top: 50px; 
-}
-.text{
-    width: 80%;
-    max-width: 300px; 
-    float: left;
-    display: inline-block; 
-    vertical-align: top;  
-}
-.box{
-    width:100%;
-    max-width: 1000px;
-    margin: 0 auto;
-
-}
 
 
 @media screen and (max-width: 500px) {

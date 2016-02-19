@@ -14,7 +14,8 @@
 }
 a:hover, a:visited, a:link, a:active
 {
-    text-decoration: none; 
+    text-decoration: none;
+    color: black; 
 }
 .work{
     background-color: white;
@@ -285,6 +286,54 @@ margin-bottom: 50px;
     margin-bottom: 50px;
     width:100%;
     float: left;
+}
+#text{
+    width: 500px; 
+    max-width: 100%;
+    height: 500px;
+    font-family: futura; 
+    color: black; 
+    font-size: 17px; 
+    word-spacing: 2px;
+    line-height: 1,5;
+    
+}
+
+
+.profil img{
+    width: 95%; 
+    height: auto; 
+    padding-top: 40px; 
+}
+.profil{
+    max-width: 300px;
+    width: 100%; 
+    height: auto; 
+    float: left; 
+    display: inline-block; 
+    vertical-align: top;  
+    
+}
+h1{
+    font-family: futura; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-transform: uppercase;
+    text-align: right; 
+    padding-top: 50px; 
+}
+#text{
+    width: 90%;
+    max-width: 300px; 
+    float: left;
+    display: inline-block; 
+    vertical-align: top;  
+}
+.box{
+    width:100%;
+    max-width: 600px;
+    margin: 0 auto;
+
 }
 @media screen and (max-width: 500px) {
  .left, .right{ 
